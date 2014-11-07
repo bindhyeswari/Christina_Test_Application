@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header nav {
+    background-color: darkred;
+}
+
+header nav ul {
+    overflow: auto;
+    list-style-type: none;
+}
+
+header ul li {
+    color: white;
+    text-shadow: 1px 1px 1px #290000;
+    float: left;
+    padding: 1em;
+}
+
+header ul li.right {
+    float: right;
+}
+
+header ul li.right:hover {
+    background-color: #ac0000;
+    cursor: pointer;
+}
+
+/* Styling for the test container */
+div#div_container_test_details, div#div_questions_container {
+    width: 60%;
+    border: 1px solid #eee;
+    padding: 1em;
+    margin: 0 auto;
+
+    display: none;
+}
+
+div#div_container_test_details input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.show {
+    display: block !important;
+}

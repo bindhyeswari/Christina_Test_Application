@@ -1,0 +1,20 @@
+body {
+    font: 200 1em 'Helvetica Neue', 'Segoe UI', 'Droid Sans', 'Helvetica';
+    padding: 3em;
+    margin: 0;
+}
+
+input, select, textarea, button {
+    font: 200 1em 'Helvetica Neue', 'Segoe UI', 'Droid Sans', 'Helvetica';
+    outline: none;
+    border: 1px solid #eee;
+    padding: 0.35em 0.5em;
+    background-color: transparent;
+}
+button:hover {
+    background-color: gray;
+    color: black;
+    text-shadow: 1px 1px 1px #eee;
+    transition: all 500ms ease;
+    cursor: pointer;
+}

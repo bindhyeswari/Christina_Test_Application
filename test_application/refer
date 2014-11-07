@@ -1,0 +1,22 @@
+// routes for index
+
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res) {
+    res.render('index', { title: 'Express' });
+});
+
+router.post('/data', function (req, res) {
+    console.log(req.body);
+    res.status(200).json({ message: 'Successfully received the test object' });
+});
+
+module.exports = router;
+
+
+
+
+
+
